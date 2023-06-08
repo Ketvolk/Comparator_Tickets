@@ -8,7 +8,7 @@ public class AviaSoulsTest {
     TicketTimeComparator timeComparator = new TicketTimeComparator();
 
     @Test
-    public void ShouldComparePriceBelow() {
+    public void ShouldCompareFirstPriceBelow() {
         Ticket ticket1 = new Ticket("Москва",
                 "Калининград",
                 3_000,
@@ -24,7 +24,7 @@ public class AviaSoulsTest {
     }
 
     @Test
-    public void ShouldComparePriceAbove() {
+    public void ShouldCompareFirstPriceAbove() {
         Ticket ticket1 = new Ticket("Москва",
                 "Калининград",
                 4_000,
